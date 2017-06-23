@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>HR-Tool-Apply Maven Webapp</name>
+	<name>ROOT</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
