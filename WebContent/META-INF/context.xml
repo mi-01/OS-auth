@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+	<Realm className="org.apache.catalina.realm.JDBCRealm"
+		connectionURL="jdbc:mysql://mysql/hr-tool-apply?user=root&amp;password=root&amp;u‌​seSSL=false"
+		debug="1" driverName="com.mysql.jdbc.Driver" roleNameCol="role_name"
+		userCredCol="user_pass" userNameCol="user_name" userRoleTable="user_roles"
+		userTable="users" />
+</Context>
