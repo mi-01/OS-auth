@@ -11,7 +11,7 @@
         connectionURL="jdbc:mysql://mysql/hr-tool-apply" 
         debug="1" driverName="com.mysql.jdbc.Driver" roleNameCol="role_name" 
         userCredCol="user_pass" userNameCol="user_name" userRoleTable="user_roles" 
-        connectionName="mihaela-user" connectionPassword="mihaela-password" digest="SHA" 
+        connectionName="mihaela-user" connectionPassword="mihaela-password"
         userTable="users"/> 
    
 
