@@ -6,8 +6,7 @@
 	<artifactId>HR-Tool-Apply</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-
-	<name>ROOT</name>
+	<name>HR-Tool-Apply</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
@@ -17,15 +16,13 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- check this link: https://stackoverflow.com/questions/9617036/how-to-specify-path-in-meta-inf-context-xml-for-tomcat -->
-		
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>5.1.39</version>
-</dependency>
+	
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.8</version>
+        </dependency>
+
 		
 
 	</dependencies>
@@ -37,8 +34,8 @@
 	</properties>
 	
 	<build>
-		<finalName>HR-Tool-Apply</finalName>
-		<defaultGoal>install</defaultGoal>
+		<finalName>ROOT</finalName>
+		<!--<defaultGoal>install</defaultGoal>-->
 		
 		<plugins>			
 			<plugin>
